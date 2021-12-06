@@ -34,7 +34,6 @@ class BooksController < ApplicationController
     else
       @book = Book.find(params[:id])
       render :edit
-
     end
   end
 
